@@ -1,0 +1,79 @@
+body{
+    background: radial-gradient(circle, plum, pink, maroon);
+}
+
+.container{
+    max-width: 35rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: moccasin;
+    border: .5rem solid #1e5f8a;
+    border-radius: .5rem;
+    box-shadow: .2rem 1rem 1rem rgba(0,0,0,0.2);
+}
+
+h2{
+    margin-top: 0;
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+}
+
+form{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: large;
+    font-weight: 600px;
+    margin-bottom: .5rem;
+    color: #000000;
+}
+
+input[type="text"],
+select{
+    width: 90%;
+    padding: 1rem;
+    border: none;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.2);
+    margin-bottom: 1rem;
+
+}
+
+
+input[type=number]:focus, select:focus{
+    outline: none;
+    box-shadow: 0 0 .5rem #3498db;
+
+
+}
+
+select{
+    width:100%;
+}
+
+input[type="submit"]{
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: #2187b5;
+
+}
+
+#result{
+    font-weight: bold;
+    margin-top: 2rem;
+    color: #3498db;
+}
